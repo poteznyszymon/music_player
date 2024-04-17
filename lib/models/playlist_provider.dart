@@ -5,30 +5,35 @@ import 'package:music_app/models/song.dart';
 class PlaylistProvider extends ChangeNotifier {
   final List<Song> _playlist = [
     Song(
+      id: '1',
       songName: 'Loading',
       artisName: 'Centrall Cee',
       albumArtImagePath: 'assets/images/album_1.jpg',
       audioPath: 'audio/loading.mp3',
     ),
     Song(
+      id: '2',
       songName: 'Save Your Tears',
       artisName: 'The weekend',
       albumArtImagePath: 'assets/images/album_2.jpg',
       audioPath: 'audio/saveyourtears.mp3',
     ),
     Song(
+      id: '3',
       songName: "God's plan",
       artisName: 'Drake',
       albumArtImagePath: 'assets/images/album_3.jpg',
       audioPath: "audio/god'splan.mp3",
     ),
     Song(
+      id: '4',
       songName: "P.S.W.I.S. (DJ Eprom remix)",
       artisName: 'Belmondawg',
       albumArtImagePath: 'assets/images/album_4.jpg',
       audioPath: 'audio/pswis.mp3',
     ),
     Song(
+      id: '5',
       songName: "Bolesław Krzywousty",
       artisName: 'Kaz Balagane',
       albumArtImagePath: 'assets/images/album_5.jpg',
